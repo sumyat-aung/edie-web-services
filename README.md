@@ -1,10 +1,10 @@
-# WEB-SERVICES LANDING WEBSITE - RESPONSIVE
+# EDIE'S WEB-SERVICES LANDING WEBSITE - RESPONSIVE
 
 ## Overview
 
   <h3>   Demo - URL link -
-    <a href="https://checkout-by-sumyat.netlify.app/">
-     https://colorflipper-by-sumyat.netlify.app/
+    <a href="https://ediewebservices-by-sumyat.netlify.app/">
+     https://ediewebservices-by-sumyat.netlify.app/
     </a>
   </h3>
 
