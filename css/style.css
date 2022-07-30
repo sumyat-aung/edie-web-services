@@ -10,17 +10,8 @@
   display: none;
 }
 
-#scroll {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  color: #333333;
-  font-size: 1.2rem;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 20px;
-  border: 2px solid #333333;
-  display: none;
+body {
+  width: 100vw;
 }
 
 /* sec-1 styling  */
@@ -28,11 +19,9 @@
 #sec1 {
   width: 100%;
   height: 100%;
-  /* border: 1px solid #970000; */
 }
 
 .nav-bar {
-  /* border: black 1px solid; */
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
@@ -81,13 +70,11 @@
 
 .que {
   color: #2d9cdb;
-  /* margin-bottom: 20px; */
   margin-left: 20%;
 }
 
 .title {
   width: 35%;
-  /* border: solid 1px #333333; */
   margin-left: 20%;
   font-size: 3em;
   font-weight: 500;
@@ -166,7 +153,6 @@
 /* sec-2 styling */
 
 #sec2 {
-  /* background-color: antiquewhite; */
   width: 100%;
   height: 100%;
   margin: 0;
@@ -181,20 +167,17 @@
   font-size: 2rem;
   font-weight: 500;
   color: #333333;
-  /* background-color: #828282; */
   margin: 120px 0 0 200px;
 }
 
 .box3 {
   display: flex;
-  /* border: 1px solid #333333; */
   margin: 0 200px;
   justify-content: space-between;
 }
 
 .wrap {
   width: 30%;
-  /* border: 1px solid #2d9cdb; */
   padding: 30px;
   margin-top: 120px;
   transition: all 0.4s linear;
@@ -205,7 +188,6 @@
 
 .wrap:hover {
   background: #ffffff;
-
   transform: scale(1.2);
 }
 
@@ -213,7 +195,6 @@
 #fr,
 #ba {
   color: #ffffff;
-
   border-radius: 16px;
   padding: 18px;
 }
@@ -264,7 +245,6 @@
 #sec3 {
   width: 100%;
   height: 100%;
-  /* background-color: #bdbdbd; */
 }
 
 .container3 {
@@ -276,22 +256,18 @@
   width: 350px;
   color: #333333;
   font-weight: 500;
-  /* background-color: #828282; */
   margin: 100px 0 0 200px;
 }
 
 .work-wrap {
   display: flex;
-  /* background-color: #757575; */
   justify-content: center;
 }
 .first-work {
-  /* background-color: #eb5757; */
   margin: 120px 40px 40px 40px;
 }
 
 .second-work {
-  /* background-color: #ffe0e0; */
   margin: 20px 40px 40px 40px;
 }
 
@@ -321,10 +297,11 @@
 
 /* sec3 styling end */
 
+/* sec4 styling */
+
 #sec4 {
   width: 100%;
   height: 100%;
-  /* background-color: aqua; */
 }
 
 .container4 {
@@ -335,7 +312,6 @@
 }
 
 .team {
-  /* background-color: burlywood; */
   margin-top: 250px;
   margin-left: 100px;
 }
@@ -363,7 +339,6 @@
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  /* background-color: chartreuse; */
 }
 
 .ph1 img {
@@ -384,10 +359,11 @@
 
 /* sec4 styling end */
 
+/* sec5 styling */
+
 #sec5 {
   width: 100%;
   height: 100%;
-  /* border: 1px solid rgb(148, 142, 140); */
 }
 
 .container5 {
@@ -505,6 +481,10 @@
   padding-bottom: 15px;
 }
 
+/* sec5 styling end */
+
+/* responsive  */
+
 @media all and (max-width: 1550px) {
   .title {
     width: 40%;
@@ -517,7 +497,6 @@
     margin-left: 5px;
   }
   .container4 {
-    /* border: 1px solid #c75353; */
     margin: 0 70px 180px;
   }
 
@@ -593,13 +572,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: #333333 solid; */
     margin-top: 80px;
   }
 
   .wrap {
     width: 50%;
-    /* border: #333333 solid; */
     padding: 40px;
     margin-top: 40px;
     transition: all 0.4s linear;
@@ -614,7 +591,6 @@
 @media all and (max-width: 900px) {
   .title {
     width: 45%;
-    /* border: solid 1px #333333; */
     margin-left: 10%;
   }
   .que {
@@ -690,12 +666,22 @@
     width: 100%;
     height: 200px;
   }
+
+  .ph1 img {
+    margin-top: 20px;
+  }
+
+  .team-photo {
+    flex-direction: column;
+  }
+  .container4 {
+    margin: 0 0 100px;
+  }
 }
 
 @media all and (max-width: 480px) {
   .title {
     width: 90%;
-    /* border: solid 1px #333333; */
     margin-left: 5%;
   }
   .que {
@@ -734,7 +720,7 @@
 
   .cap,
   .cap3 {
-    margin: 120px 0 0 30px;
+    margin: 120px 0 0 20px;
     width: 300px;
     font-size: 1.8rem;
   }
@@ -747,16 +733,23 @@
   .footer {
     padding: 10px;
   }
+
   .work-wrap img {
     width: 300px;
     height: 300px;
   }
+
   .container4 {
-    margin: 0 30px 180px;
+    margin: 0 0 100px;
     width: 100%;
   }
+
   .quote {
     width: 100%;
     margin: 100px 0 0;
+  }
+  .para {
+    width: 100%;
+    font-size: 16px;
   }
 }
